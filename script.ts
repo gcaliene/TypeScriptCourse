@@ -41,3 +41,14 @@ let complex2: Complex= {
     return this.data;
   }
 };
+
+//union Types
+let myRealRealAge: number | string = 27; //number | string is better than using any
+myRealRealAge = '27'
+// myRealRealAge = true  // wont work
+
+//check Types
+let finalValue = 38;
+if (typeof finalValue == 'number'){
+  console.log("Final Value Is A Number");
+}

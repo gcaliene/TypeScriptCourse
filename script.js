@@ -31,3 +31,12 @@ var complex2 = {
         return this.data;
     }
 };
+//union Types
+var myRealRealAge = 27; //number | string is better than using any
+myRealRealAge = '27';
+// myRealRealAge = true  // wont work
+//check Types
+var finalValue = "A String";
+if (typeof finalValue == 'number') {
+    console.log("Final Value Is A Number");
+}
